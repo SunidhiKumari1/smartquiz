@@ -143,7 +143,7 @@ export default function Result({ mode }) {
 
         <Link
           to={`/levels/${subject}`}
-          className="btn btn-primary btn-lg"
+          className="btn btn-primary btn-lg my-3"
         >
           Back to Levels
         </Link>
