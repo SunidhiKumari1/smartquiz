@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
   return (
-    <nav className={`navbar fixed-top navbar-expand-lg navbar-${props.mode === "dark" ? "dark" : "light"} bg-${props.mode === "dark" ? "dark" : "info"}`}>
+    <nav className={`navbar sticky-top navbar-expand-lg navbar-${props.mode === "dark" ? "dark" : "light"} bg-${props.mode === "dark" ? "dark" : "info"}`}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           Smart Quiz

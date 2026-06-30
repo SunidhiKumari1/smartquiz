@@ -68,7 +68,7 @@ export default function Hero({ mode }) {
       </div>
 
       {/* Statistics */}
-      <div className="container my-5">
+      <div className="container">
         <div className="row text-center g-4">
 
           <div className="col-6 col-md-3">
